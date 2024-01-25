@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            text-align: center;
+        }
+        .heading {
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        input {
+            height: 25px;
+            width: 300px;
+            display: block;
+            margin: 10px auto;
+        }
+
+        button {
+            /* padding: 10px 100px; */
+            height: 30px;
+            width: 308px;
+            display: block;
+            margin: 10px auto;
+            background-color: rgb(174, 174, 255);
+            border: 1px solid rgb(132, 132, 255);
+        }
+
+        button:hover {
+            box-shadow: 1px 1px 5px rgb(174, 174, 255);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="heading">Add your countdown Time</h1>
+        <input type="number" id="inputtime" value="4">
+        <button id="starttimer">Start Timer</button>
+        <h1 id="timer"></h1>
+    </div>
+
+    <script src="countdown.js"></script>
+</body>
+
+</html>
